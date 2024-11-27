@@ -1,0 +1,46 @@
+{
+  "name": "titanium",
+  "version": "7.1.5",
+  "author": "TiDev, Inc. <npm@tidev.io>",
+  "description": "Command line interface for building Titanium SDK apps",
+  "type": "module",
+  "keywords": [
+    "titanium",
+    "tidev",
+    "mobile",
+    "ios",
+    "iphone",
+    "android"
+  ],
+  "homepage": "https://titaniumsdk.com",
+  "bugs": "https://github.com/tidev/titanium-cli/issues",
+  "repository": "https://github.com/tidev/titanium-cli",
+  "preferGlobal": true,
+  "devDependencies": {
+    "@reporters/github": "1.7.1",
+    "@vitest/coverage-istanbul": "2.1.5",
+    "c8": "10.1.2",
+    "eslint": "9.15.0",
+    "glob": "10.4.5",
+    "globals": "15.12.0",
+    "memory-streams": "0.1.3",
+    "proxy": "2.2.0"
+  },
+  "license": "Apache-2.0",
+  "bin": {
+    "ti": "./bin/ti.js",
+    "titanium": "./bin/ti.js"
+  },
+  "files": [
+    "./src"
+  ],
+  "scripts": {
+    "coverage": "node scripts/test.js --coverage",
+    "lint": "eslint",
+    "test": "node scripts/test.js",
+    "test-only": "node scripts/test.js --only"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

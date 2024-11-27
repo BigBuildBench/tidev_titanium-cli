@@ -1,0 +1,9 @@
+._*
+.DS_Store
+.eslintcache
+.pnpm-debug.log
+coverage
+dist
+/node_modules
+npm-debug.log
+/*.tgz
