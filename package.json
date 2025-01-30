@@ -18,7 +18,7 @@
   "preferGlobal": true,
   "devDependencies": {
     "@reporters/github": "1.7.1",
-    "@vitest/coverage-istanbul": "2.1.5",
+    "@vitest/coverage-istanbul": "3.0.4",
     "c8": "10.1.2",
     "eslint": "9.15.0",
     "glob": "10.4.5",
